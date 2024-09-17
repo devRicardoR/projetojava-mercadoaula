@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zé Market</title>
+    <link rel="stylesheet" href="/projeto_intellij/Mercado/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Zé Market!</h1>
+    </header>
+
+    <section id="cadastro">
+        <h2>Cadastrar Produto</h2>
+        <form id="cadastroForm">
+            <input type="text" id="nomeProduto" placeholder="Nome do produto" required>
+            <input type="number" id="precoProduto" placeholder="Preço do produto" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section id="lista">
+        <h2>Produtos Disponíveis</h2>
+        <div id="produtosList"></div>
+    </section>
+
+    <script src="/projeto_intellij/Mercado/script.js"></script>
+</body>
+</html>
